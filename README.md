@@ -2,6 +2,8 @@
 
 This repository is meant as a reproduction for an issue when using Angular CLI with a symlinked library.
 
+Use case: a library with included demo application to showcase the library.
+
 ## The issue
 
 The `@angular/core` package gets included twice, once for the app and once for the library. As such,
