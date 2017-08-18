@@ -1,0 +1,55 @@
+{
+  "__symbolic": "module",
+  "version": 3,
+  "metadata": {
+    "LibraryModule": {
+      "__symbolic": "class",
+      "decorators": [
+        {
+          "__symbolic": "call",
+          "expression": {
+            "__symbolic": "reference",
+            "module": "@angular/core",
+            "name": "NgModule"
+          },
+          "arguments": [
+            {
+              "providers": [
+                {
+                  "__symbolic": "reference",
+                  "name": "LibraryService"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "members": {}
+    },
+    "LibraryService": {
+      "__symbolic": "class",
+      "decorators": [
+        {
+          "__symbolic": "call",
+          "expression": {
+            "__symbolic": "reference",
+            "module": "@angular/core",
+            "name": "Injectable"
+          }
+        }
+      ],
+      "members": {
+        "doStuff": [
+          {
+            "__symbolic": "method"
+          }
+        ]
+      }
+    }
+  },
+  "origins": {
+    "LibraryModule": "./index",
+    "LibraryService": "./index"
+  },
+  "importAs": "@repro/library"
+}

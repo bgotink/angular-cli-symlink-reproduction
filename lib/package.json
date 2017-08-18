@@ -1,0 +1,26 @@
+{
+  "name": "@repro/library",
+  "version": "1.0.0",
+  "main": "./bundles/library.umd.js",
+  "module": "./@repro/library.es5.js",
+  "es2015": "./@repro/library.js",
+  "typings": "./library.d.ts",
+  "devDependencies": {
+    "@angular/common": "4.3.5",
+    "@angular/compiler": "4.3.5",
+    "@angular/compiler-cli": "4.3.5",
+    "@angular/core": "4.3.5",
+    "@angular/forms": "4.3.5",
+    "@angular/platform-browser": "4.3.5",
+    "@angular/platform-browser-dynamic": "4.3.5",
+    "@types/jasmine": "2.5.47",
+    "@types/karma": "0.13.34",
+    "rxjs": "5.4.2",
+    "typescript": "^2.4.2",
+    "zone.js": "0.8.5"
+  },
+  "peerDependencies": {
+    "@angular/common": "4.3.5",
+    "@angular/core": "4.3.5"
+  }
+}
